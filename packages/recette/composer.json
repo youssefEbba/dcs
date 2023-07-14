@@ -1,0 +1,28 @@
+{
+    "name": "dcs/recette",
+    "description": "Module destiné a la gestion de la recette communales ",
+    "homepage": "https://dcs-sarl.com",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "sidimaarouf",
+            "email": "sidimaarouf@gmail.com"
+        }
+    ],
+
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Dcs\\Recette\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Dcs\\Recette\\RecetteServiceProvider"
+            ]
+        }
+    }
+}
